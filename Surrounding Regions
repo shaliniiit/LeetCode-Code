@@ -1,0 +1,12 @@
+Leetcode : Breadth First Search 
+Question : Surrounding Regions
+Link : https://leetcode.com/problems/surrounded-regions/
+Approach : 
+Chech first row, last row, first column and last column for O's 
+Set all O's on the edges and all O's connected to such O's as '-'
+Run through the board vector
+Check for O's 
+Convert O's to X
+And convert '-'s to O's
+
+GFG : https://www.geeksforgeeks.org/given-matrix-o-x-replace-o-x-surrounded-x/
